@@ -1,0 +1,10 @@
+#profile {
+  width: 70%;
+}
+
+#profile #photos {
+  border: 2px solid blue;
+  position: relative;
+  left: 39.5%;
+  margin: 1em 0;
+}

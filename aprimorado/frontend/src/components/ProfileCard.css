@@ -1,0 +1,69 @@
+#profile-card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+#data {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #363636;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+}
+
+#data #image {
+  border: 1px solid red;
+  width: 200px;
+  text-align: center;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h3 {
+  text-align: center;
+}
+
+#data .bio {
+  text-align: justify;
+  width: 90%;
+}
+
+#data .follow {
+  display: flex;
+  gap: 3em;
+}
+
+#data .follow label {
+  text-align: center;
+}
+
+#data .follow p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#data .bio textarea {
+  resize: none;
+  background-color: #121212;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-family: "Roboto";
+}
+
+.buttons {
+  display: flex;
+  gap: 2em;
+}
+
+.prf-btn {
+  width: 140px;
+}
+
+.prf-btn.del {
+  background-color: red;
+}

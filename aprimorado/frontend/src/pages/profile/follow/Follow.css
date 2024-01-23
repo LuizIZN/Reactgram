@@ -1,0 +1,19 @@
+.follow-page {
+  width: 100%;
+}
+
+.follow-card {
+  max-width: 30%;
+  margin: 1.5em auto;
+  position: relative;
+  left: 13%;
+  border: 1px solid #363636;
+  padding: 2em;
+  background-color: #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+}

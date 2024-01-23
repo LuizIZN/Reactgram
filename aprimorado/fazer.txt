@@ -1,0 +1,1 @@
+testar a procedência de lançar um erro no auth guard

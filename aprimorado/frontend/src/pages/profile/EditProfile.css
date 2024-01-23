@@ -1,0 +1,27 @@
+#profile-edit {
+  width: 100%;
+}
+
+#edit-profile {
+  max-width: 25%;
+  margin: 1.5em auto;
+  position: relative;
+  left: 13%;
+  border: 1px solid #363636;
+  padding: 2em;
+  background-color: #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#edit-profile h2,
+#edit-profile p {
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
